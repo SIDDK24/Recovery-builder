@@ -17,7 +17,7 @@ env:
   MANIFEST: git://github.com/PitchBlackRecoveryProject/manifest_pb -b android-11.0
   DEVICE: enchilada
   DT_LINK: https://github.com/PitchBlackRecoveryProject/android_device_oneplus_enchilada-pbrp.git -b android-11.0
-  DT_PATH: device/xiaomi/rosy
+  DT_PATH: device/oneplus/enchilada
   KERNEL_LINK: https://github.com/nebrassy/android_kernel_oneplus_sdm845.git
   KERNEL_PATH: kernel/oneplus/sdm845
   TARGET: bootimage
