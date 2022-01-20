@@ -13,7 +13,8 @@ on:
   watch:
     types: [started]
 
-MANIFEST: "git://github.com/SHRP/manifest.git -b v3_11.0"
+env:
+  MANIFEST: "git://github.com/SHRP/manifest.git -b v3_11.0"
   # Recovery Manifest URL with -b branch
   DT_LINK: "https://github.com/siddhrsh/TWRP_OP6xT"
   # Your Device Tree Link
