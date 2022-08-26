@@ -14,13 +14,13 @@ on:
     types: [started]
 
 env:
-  MANIFEST: "git://github.com/SHRP/manifest.git -b v3_11.0"
+  MANIFEST: "https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11"
   # Recovery Manifest URL with -b branch
-  DT_LINK: "https://github.com/siddhrsh/TWRP_OP6xT"
+  DT_LINK: "https://github.com/SIDDK24/TWRP_nabu.git"
   # Your Device Tree Link
-  VENDOR: "oneplus"
+  VENDOR: "xiaomi"
   # Your Device's Vendor name as in used inside DT. Example: xiaomi, samsung, asus, etc.
-  CODENAME: "OP6xT"
+  CODENAME: "nabu"
   # Your Device's Codename as in used inside DT." Example: nikel, phoenix, ginkgo, etc.
   KERNEL_LINK: ""
   # Kernel repo link with optional -b branch. Only for building kernel from source. Ignore if using prebuilt.
